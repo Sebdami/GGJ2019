@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     
     void FixedUpdate()
     {
+        if(GameManager.Instance.State == GameManager.GameState.Paused)
+            return;
         rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
     }
 }
