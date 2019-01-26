@@ -13,8 +13,19 @@ public class PlayerAnimatorManager : MonoBehaviour
         pc = GetComponentInParent<PlayerController>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        GameManager.Instance.OnColorUnlock += OnColorUnlock;
+        OnColorUnlock(GameManager.Instance.UnlockedColors);
     }
-    
+
+    void OnColorUnlock(int color)
+    {
+        if(anim)
+            anim.SetInteger("UnlockedColors", color);
+    }
+    private void OnDestroy()
+    {
+        GameManager.Instance.OnColorUnlock -= OnColorUnlock;
+    }
     void Update()
     {
         anim.SetFloat("velocity", pc.GetVelocity());

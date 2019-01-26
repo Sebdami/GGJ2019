@@ -7,6 +7,7 @@ public class ZoneEntrance : MonoBehaviour
     public string sceneName;
     public GameObject signCanvas;
     public bool isPlayerInFront = false;
+    public int UnlocksColor;
 
     public void Update()
     {
@@ -27,7 +28,7 @@ public class ZoneEntrance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player" && GameManager.Instance.CanInteract)
+        if(other.tag == "Player" && GameManager.Instance.CanInteract && GameManager.Instance.UnlockedColors == UnlocksColor-1)
         {
             signCanvas.SetActive(true);
             isPlayerInFront = true;

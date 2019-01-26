@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ConstellationMinigame.unity
     guid: 64dbd63f3de4727428b59b9d4477f70b
+  - enabled: 1
+    path: Assets/Scenes/PuzzlePhoto3.unity
+    guid: 276f41692c86d1f4993dae0b19a8e9be
+  - enabled: 1
+    path: Assets/Scenes/MusiqueGame.unity
+    guid: 04abfd438e3887f42b939e9f4f9fc983
   m_configObjects: {}

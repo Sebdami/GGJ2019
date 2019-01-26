@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public float FadeOutDuration = 1f;
     public bool CanInteract = true;
     public Action OnMinigameWin;
+    public Action<int> OnColorUnlock;
+    int unlockedColors = 0;
 
     PlayerController playerController;
     public PlayerController PlayerController
@@ -20,6 +22,17 @@ public class GameManager : MonoBehaviour
             if (playerController == null)
                 playerController = GameObject.FindObjectOfType<PlayerController>();
             return playerController;
+        }
+    }
+
+    public int UnlockedColors { get => unlockedColors; private set => unlockedColors = value; }
+
+    public void UnlockNextColor()
+    {
+        if(UnlockedColors < 4)
+        {
+            UnlockedColors++;
+            OnColorUnlock?.Invoke(unlockedColors);
         }
     }
 
@@ -56,7 +69,9 @@ public class GameManager : MonoBehaviour
 
     public void MinigameWin()
     {
+        UnlockNextColor();
         OnMinigameWin?.Invoke();
+        GameManager.Instance.LoadLevel("Main");
     }
 
     private void Awake()
