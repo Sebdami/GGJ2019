@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum PlayerState
+    {
+        Moving,
+        Paused
+    }
+
+    public PlayerState State;
+
     [SerializeField]
     float speed = 10f;
 
-    [SerializeField]
-    float gravity = 0.9f;
-
     Rigidbody2D rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,7 +24,7 @@ public class PlayerController : MonoBehaviour
     
     void FixedUpdate()
     {
-        if(GameManager.Instance.State == GameManager.GameState.Paused)
+        if(State == PlayerState.Paused)
             return;
         rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
     }
