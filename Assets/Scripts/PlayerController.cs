@@ -9,13 +9,18 @@ public class PlayerController : MonoBehaviour
         Moving,
         Paused
     }
-
+    public bool looksToTheLeft;
     public PlayerState State;
 
     [SerializeField]
     float speed = 10f;
 
     Rigidbody2D rb;
+
+    public float GetVelocity()
+    {
+        return rb.velocity.magnitude;
+    }
 
     void Start()
     {
@@ -26,6 +31,12 @@ public class PlayerController : MonoBehaviour
     {
         if(State == PlayerState.Paused)
             return;
-        rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
+
+        float horizontalInput = Input.GetAxis("Horizontal");
+        if (horizontalInput < 0f)
+            looksToTheLeft = true;
+        else if (horizontalInput > 0f)
+            looksToTheLeft = false;
+        rb.velocity = new Vector3(horizontalInput * speed, rb.velocity.y);
     }
 }

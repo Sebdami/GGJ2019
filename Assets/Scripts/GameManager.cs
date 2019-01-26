@@ -22,6 +22,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void PausePlayerController()
+    {
+        PlayerController.State = PlayerController.PlayerState.Paused;
+    }
+
+    public void UnpausePlayerController()
+    {
+        PlayerController.State = PlayerController.PlayerState.Moving;
+    }
+
     public void LoadLevel(string levelName)
     {
         StartCoroutine(LoadLevelWithFadeOutAndIn(levelName));
@@ -35,7 +45,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void OnLevelWasLoaded(int level)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode)
     {
         FadeManager.Instance.FadeIn(FadeInDuration);
     }
@@ -49,6 +59,13 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     public void Update()
