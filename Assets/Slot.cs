@@ -6,8 +6,7 @@ using UnityEngine;
 
 public class Slot : MonoBehaviour, IDropHandler
 {
-    //public GameObject[] pieces = new GameObject[9];
-    //public GameObject[] places = new GameObject[9];
+
     public int id;
     public int width = 1;
     public int height = 1;
