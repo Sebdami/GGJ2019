@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ph1
+  - ph2
+  - ph3
+  - slot0
   layers:
   - Default
   - TransparentFX
