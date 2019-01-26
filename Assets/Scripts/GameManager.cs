@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,7 +10,7 @@ public class GameManager : MonoBehaviour
     public float FadeInDuration = 1f;
     public float FadeOutDuration = 1f;
     public bool CanInteract = true;
-
+    public Action OnMinigameWin;
 
     PlayerController playerController;
     public PlayerController PlayerController
@@ -52,11 +53,18 @@ public class GameManager : MonoBehaviour
     {
         FadeManager.Instance.FadeIn(FadeInDuration);
     }
+
+    public void MinigameWin()
+    {
+        OnMinigameWin?.Invoke();
+    }
+
     private void Awake()
     {
         if(Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
