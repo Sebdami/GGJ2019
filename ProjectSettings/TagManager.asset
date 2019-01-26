@@ -51,3 +51,6 @@ TagManager:
   - name: Arrows
     uniqueID: 3772610903
     locked: 0
+  - name: Foreground
+    uniqueID: 2934610899
+    locked: 0

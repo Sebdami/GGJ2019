@@ -10,6 +10,7 @@ public class GameManager1 : MonoBehaviour
     public static GameManager1 instance;
     public GameObject OopsieText;
     public ParticleSystem ParticlesWin;
+    public GameObject Traits ;
 
     bool failed = false;
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class GameManager1 : MonoBehaviour
     {
         instance = this;
         OopsieText.gameObject.SetActive(false);
+        Traits.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -51,6 +53,7 @@ public class GameManager1 : MonoBehaviour
         theBS.hasStarted = false;
         theBS.gameObject.SetActive(false);
         OopsieText.gameObject.SetActive(true);
+        Traits.gameObject.SetActive(false);
         failed = true;
 
     }

@@ -7,12 +7,14 @@ public class ButtonController : MonoBehaviour
     private SpriteRenderer theSR;
     public Sprite defaultImage;
     public Sprite pressedImage;
+    public ParticleSystem StarsParticles;
 
     public KeyCode keyToPress;
     // Start is called before the first frame update
     void Start()
     {
         theSR = GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class ButtonController : MonoBehaviour
         if (Input.GetKeyDown(keyToPress))
         {
             theSR.sprite = pressedImage;
+            StarsParticles.Play();
         }
         if (Input.GetKeyUp(keyToPress))
         {
