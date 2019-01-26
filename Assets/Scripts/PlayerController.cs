@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity.Example;
 
 public class PlayerController : MonoBehaviour
 {
+    public Transform playerSpawns;
     public enum PlayerState
     {
         Moving,
@@ -25,6 +27,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        transform.position = playerSpawns.GetChild(GameManager.Instance.UnlockedColors).position;
+        Vector3 camPos = Camera.main.transform.position;
+        Camera.main.transform.position = new Vector3(transform.position.x, camPos.y, camPos.z);
+        //Camera.main.GetComponent<CameraFollow>().enabled = true;
     }
     
     void FixedUpdate()

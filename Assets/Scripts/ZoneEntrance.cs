@@ -26,7 +26,7 @@ public class ZoneEntrance : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag == "Player" && GameManager.Instance.CanInteract && GameManager.Instance.UnlockedColors == UnlocksColor-1)
         {

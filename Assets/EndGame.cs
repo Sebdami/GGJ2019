@@ -6,10 +6,16 @@ public class EndGame : MonoBehaviour
 {
     public Transform slotParent;
 
-
-    // Update is called once per frame
+    bool won = false;
+    private void Start()
+    {
+        won = false;
+    }
     void Update()
     {
+        if (won)
+            return;
+
         bool isDone = true;
         for (int i = 0; i < slotParent.childCount; ++i)
         {
@@ -26,7 +32,8 @@ public class EndGame : MonoBehaviour
         }
         if(isDone)
         {
-            GameManager.Instance.LoadLevel("Main");
+            won = true;
+            GameManager.Instance.MinigameWin();
         }
     }
 }

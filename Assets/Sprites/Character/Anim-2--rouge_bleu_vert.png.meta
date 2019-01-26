@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: f452e6a1ae8ac13488f64525207057a9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Anim-2--rouge_bleu_vert_0
+    21300002: Anim-2--rouge_bleu_vert_1
+    21300004: Anim-2--rouge_bleu_vert_2
+    21300006: Anim-2--rouge_bleu_vert_3
+    21300008: Anim-2--rouge_bleu_vert_4
+    21300010: Anim-2--rouge_bleu_vert_5
+    21300012: Anim-2--rouge_bleu_vert_6
+    21300014: Anim-2--rouge_bleu_vert_7
+    21300016: Anim-2--rouge_bleu_vert_8
+    21300018: Anim-2--rouge_bleu_vert_9
+    21300020: Anim-2--rouge_bleu_vert_10
+    21300022: Anim-2--rouge_bleu_vert_11
+    21300024: Anim-2--rouge_bleu_vert_12
+    21300026: Anim-2--rouge_bleu_vert_13
+    21300028: Anim-2--rouge_bleu_vert_14
+    21300030: Anim-2--rouge_bleu_vert_15
+    21300032: Anim-2--rouge_bleu_vert_16
+    21300034: Anim-2--rouge_bleu_vert_17
+    21300036: Anim-2--rouge_bleu_vert_18
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5202
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e159ccac00de57144bbd014048cb9cfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_1
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 5202
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656dfe8c8ba37847b2b76df9547157a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_2
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 5202
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991ff595bab02c74883d0ad43ba076ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_3
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 5202
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd54fb797d19746a0bd573b36ba892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_4
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 5202
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19728200509d93f408149142786a405e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3468
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695bd9d1597bf994a8e764dd54376233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_6
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 3468
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9078c3f2ad23d4c8db3965db0a0f1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_7
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 3468
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba39bb4c8d0c41f46b6905d4c201fa9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_8
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 3468
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fbf32e15f2a374c9c6daa66752f1f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_9
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 3468
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f91da661f20e6f468dc07a4467eddf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1734
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c91bd8f5bf49c4889e763b710adeb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_11
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1734
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2601d8793ae84f4b9428c20e9da4993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_12
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1734
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb3fe4cdd13dd74692077d756f39ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_13
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 1734
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddde71eb1a93e24395225993d5f5b29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_14
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 1734
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bebf3cfa96aab4dbddfbd4e84d25bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373cbe3fe9762d84ba99b5f7dbe3fb98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_16
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287dd064ebf1a1041b8ac1f6da518f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_17
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 0
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017bfd9948ca8ab4ab4a646f505d09e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim-2--rouge_bleu_vert_18
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 0
+        width: 1186
+        height: 1734
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7acc312d89bb042bdb8e47a1926f8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c072f6b485bec6648998417ae7c9945d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

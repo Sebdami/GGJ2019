@@ -27,6 +27,22 @@ public class GameManager : MonoBehaviour
 
     public int UnlockedColors { get => unlockedColors; private set => unlockedColors = value; }
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+
     public void UnlockNextColor()
     {
         if(UnlockedColors < 4)
@@ -73,22 +89,7 @@ public class GameManager : MonoBehaviour
         OnMinigameWin?.Invoke();
         GameManager.Instance.LoadLevel("Main");
     }
-
-    private void Awake()
-    {
-        if(Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
+    
     private void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;

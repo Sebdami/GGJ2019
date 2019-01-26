@@ -1046,6 +1046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7199329636639486562, guid: eea5ee798948c854aa788e8af37a7204,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4383262552065746399, guid: eea5ee798948c854aa788e8af37a7204,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1106,10 +1111,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7199329636639486562, guid: eea5ee798948c854aa788e8af37a7204,
+    - target: {fileID: 8667348984703251251, guid: eea5ee798948c854aa788e8af37a7204,
         type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea5ee798948c854aa788e8af37a7204, type: 3}

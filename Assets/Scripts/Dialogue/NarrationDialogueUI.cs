@@ -89,6 +89,11 @@ namespace Yarn.Unity.Example {
                 continuePrompt.SetActive (false);
         }
 
+        private void Start()
+        {
+            GetComponent<DialogueRunner>().StartDialogue(GameManager.Instance.UnlockedColors.ToString());
+        }
+
         /// Show a line of dialogue, gradually
         public override IEnumerator RunLine (Yarn.Line line)
         {
@@ -175,6 +180,19 @@ namespace Yarn.Unity.Example {
         {
             // "Perform" the command
             Debug.Log ("Command: " + command.text);
+            switch(command.text)
+            {
+                case "pauseAll":
+                    if (gameControlsContainer)
+                        gameControlsContainer.gameObject.SetActive(false);
+                    break;
+                case "pauseInteract":
+                    GameManager.Instance.CanInteract = false;
+                    break;
+            }
+                
+
+
             yield break;
         }
 
@@ -208,6 +226,7 @@ namespace Yarn.Unity.Example {
             if (gameControlsContainer != null) {
                 gameControlsContainer.gameObject.SetActive(true);
             }
+            GameManager.Instance.CanInteract = true;
 
             yield break;
         }

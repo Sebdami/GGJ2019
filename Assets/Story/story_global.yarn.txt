@@ -1,0 +1,53 @@
+title: 0
+tags: 
+colorID: 0
+position: -216,27
+---
+<<pauseAll>>I don't know how to feel about returning here after all those years.
+So much have changed and yet so much remained the same.
+[[Start V2-2]]
+===
+title: Start V2-2
+tags: 
+colorID: 0
+position: -213,263
+---
+<<pauseInteract>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
+Things seem a bit out of time here. And it just feels...
+Safer.
+===
+title: 1
+tags: Photo Memory
+colorID: 1
+position: 54,28
+---
+<<pauseAll>>The studio is just as I left it.
+It saddens me that I torned up this picture. That was quite childish of me.
+...
+I can't manage to describe how I feel. This room has been my refuge for so long.
+Photography was a way for me to connect with people without getting too close. Keeping the camera between us.
+I think I also liked to work alone and to be able to make my own choices.
+I should get back to it.
+===
+title: 2
+tags: Planetarium Memory Pause
+colorID: 0
+position: 321,30
+---
+<<pauseAll>>The first time I went on a school trip during primary school, my parents told me there was no reason to be sad because despite the fact we were away from each other, we could still be looking at the same stars each night.
+But when I looked up and saw Cepheus constellation, this shiny little house just reminded of how far I was from home.
+I raised my hand to reach it, hoping it would suddenly bring me back home, but grasped nothing but the wind.
+===
+title: 3
+tags: Garden Memory Pause
+colorID: 0
+position: 578,34
+---
+<<pauseAll>>Now I remember the name of this huge flower that gets through the ceiling.
+Lily Stargazer.
+Does she likes to contemplate Cepheus too? I like to think so.
+This little fellow right here might end just as big as its sister in a few years.
+I just hope someone will take care of it. Living in the shadow of the great Stargazer can be tough.
+As a kid, I would come here to keep company to the smaller plants on the shelves so they feel just as loved and beautiful.
+Because to me, they are.
+===
