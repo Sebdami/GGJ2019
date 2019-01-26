@@ -27,6 +27,10 @@ public class ConstellationCameraController : MonoBehaviour
 
     [SerializeField]
     Image scopeImage;
+
+    [SerializeField]
+    WinCountDown winCountDown;
+
     [Space]
     [SerializeField]
     float speed = 0.75f;
@@ -64,15 +68,22 @@ public class ConstellationCameraController : MonoBehaviour
         {
             if(WinCountdownStarted)
             {
-                WinCountdownStarted = false;
-                scopeImage.sprite = researchSprite;
+                StopWinCountDown();
             }
         }
+    }
+
+    void StopWinCountDown()
+    {
+        WinCountdownStarted = false;
+        winCountDown.gameObject.SetActive(false);
+        scopeImage.sprite = researchSprite;
     }
 
     IEnumerator WinInSeconds(float seconds)
     {
         Debug.Log("Win");
+        winCountDown.gameObject.SetActive(true);
         WinCountdownStarted = true;
         float timer = 0f;
         while(timer < seconds)
