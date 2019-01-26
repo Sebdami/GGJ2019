@@ -20,8 +20,8 @@ public class DustParticle : MonoBehaviour
             {
                 Color col = sr.color;
                 col.a -= aplhaFadeSpeed * Time.deltaTime;
-                sr.color = col;
-                transform.position += (transform.position - mousePos).normalized * moveSpeed * Time.deltaTime;
+                //sr.color = col;
+                transform.position += ((transform.position - mousePos).normalized) * moveSpeed * Time.deltaTime;
                 if (col.a < minAlphaToDestroy)
                     Destroy(gameObject);
             }

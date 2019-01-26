@@ -95,9 +95,15 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    public void Update()
+    public void WinInSeconds(float seconds)
     {
-        
+        StartCoroutine(OnWinInSeconds(seconds));
+    }
+
+    IEnumerator OnWinInSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        MinigameWin();
     }
 
 }
