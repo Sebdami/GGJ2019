@@ -38,7 +38,8 @@ public class GameManager : MonoBehaviour
     }
     IEnumerator LoadLevelWithFadeOutAndIn(string levelName)
     {
-        PlayerController.State = PlayerController.PlayerState.Paused;
+        if(PlayerController != null)
+            PlayerController.State = PlayerController.PlayerState.Paused;
         FadeManager.Instance.FadeOut(FadeOutDuration);
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(levelName);
