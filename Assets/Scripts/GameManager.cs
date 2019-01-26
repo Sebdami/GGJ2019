@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public float FadeInDuration = 1f;
     public float FadeOutDuration = 1f;
-
+    public bool CanInteract = true;
 
 
     PlayerController playerController;
@@ -24,12 +24,14 @@ public class GameManager : MonoBehaviour
 
     public void PausePlayerController()
     {
-        PlayerController.State = PlayerController.PlayerState.Paused;
+        if(PlayerController)
+            PlayerController.State = PlayerController.PlayerState.Paused;
     }
 
     public void UnpausePlayerController()
     {
-        PlayerController.State = PlayerController.PlayerState.Moving;
+        if(PlayerController)
+            PlayerController.State = PlayerController.PlayerState.Moving;
     }
 
     public void LoadLevel(string levelName)

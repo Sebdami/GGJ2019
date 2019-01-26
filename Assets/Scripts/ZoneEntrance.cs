@@ -12,6 +12,12 @@ public class ZoneEntrance : MonoBehaviour
     {
         if(isPlayerInFront)
         {
+            if (!GameManager.Instance.CanInteract)
+            {
+                signCanvas.SetActive(false);
+            }
+            else if (signCanvas.activeSelf == false)
+                signCanvas.SetActive(true);
             if(Input.GetButtonDown("Jump"))
             {
                 GameManager.Instance.LoadLevel(sceneName);
@@ -21,7 +27,7 @@ public class ZoneEntrance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "Player" && GameManager.Instance.CanInteract)
         {
             signCanvas.SetActive(true);
             isPlayerInFront = true;

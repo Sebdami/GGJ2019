@@ -3,7 +3,7 @@ tags:
 colorID: 6
 position: 267,249
 ---
-Ceci est un premier test.
+<<disableControls controlsDisabled="None">>Ceci est un premier test.
 [[Go to the next node|Next]]
 ===
 title: Next
@@ -11,6 +11,7 @@ tags:
 colorID: 0
 position: 603,272
 ---
+<<disableControls controlsDisabled="All">>
 Maître Corbeau sur un arbre perché,
 Tenait en son bec un fromage.
 Maître Renard par l’odeur alléché
