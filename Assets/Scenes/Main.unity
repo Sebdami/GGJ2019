@@ -795,9 +795,7 @@ MonoBehaviour:
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
-  m_AfterStackBundles:
-  - assemblyQualifiedName: Grayscale, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+  m_AfterStackBundles: []
 --- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6430,7 +6428,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 0.49411768, g: 0.7254902, b: 0.4156863, a: 0.75686276}
-        key1: {r: 0.15686275, g: 0.36862746, b: 0.227451, a: 0.7254902}
+        key1: {r: 0.15686275, g: 0.36862746, b: 0.227451, a: 0.72801214}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -6445,10 +6443,10 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 0
-        atime1: 65535
-        atime2: 0
-        atime3: 0
+        atime0: 6554
+        atime1: 58982
+        atime2: 65535
+        atime3: 65535
         atime4: 0
         atime5: 0
         atime6: 0
@@ -7571,7 +7569,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 0
+    enabled: 1
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -7581,8 +7579,8 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
         key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 1}
+        key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 1}
         key6: {r: 0, g: 0, b: 0, a: 0}
@@ -7596,16 +7594,16 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 13107
-        atime2: 32768
-        atime3: 52428
+        atime1: 6554
+        atime2: 58982
+        atime3: 65535
         atime4: 65535
         atime5: 65535
         atime6: 0
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 5
+        m_NumAlphaKeys: 4
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -12435,8 +12433,8 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
         key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 1}
+        key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 1}
         key6: {r: 0, g: 0, b: 0, a: 0}
@@ -12450,16 +12448,16 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 13107
-        atime2: 32768
-        atime3: 52428
+        atime1: 6554
+        atime2: 58982
+        atime3: 65535
         atime4: 65535
         atime5: 65535
         atime6: 0
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 5
+        m_NumAlphaKeys: 4
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -16278,6 +16276,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: NarrativeText
       objectReference: {fileID: 0}
+    - target: {fileID: 5442631432584531326, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 376130842}
+    - target: {fileID: 5442631432507770680, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 376130842}
+    - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 25cad5bbdeb6fcd4e89e5907c974759c,
+        type: 3}
+    - target: {fileID: 5442631433943115448, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 376130842}
     - target: {fileID: 5442631433485350478, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16388,21 +16417,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 5442631433943115448, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+    - target: {fileID: 5442631433779190189, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376130842}
-    - target: {fileID: 5442631432584531326, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442631433779189840, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376130842}
-    - target: {fileID: 5442631432507770680, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376130842}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9029f7530271d4cb6bf1b9d9d229c8, type: 3}
 --- !u!1001 &6054513951822340267
