@@ -1,18 +1,9 @@
-title: 0
-tags: 
-colorID: 0
-position: -216,27
----
-<<pauseAll>>I don't know how to feel about returning here after all those years.
-So much have changed and yet so much remained the same.
-[[Start V2-2]]
-===
 title: Start V2-2
 tags: 
 colorID: 0
-position: -213,263
+position: -250,320
 ---
-<<pauseInteract>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
+<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
 Things seem a bit out of time here. And it just feels...
 Safer.
 ===
@@ -41,7 +32,7 @@ I raised my hand to reach it, hoping it would suddenly bring me back home, but g
 title: 3
 tags: Garden Memory Pause
 colorID: 0
-position: 578,34
+position: 572,29
 ---
 <<pauseAll>>Now I remember the name of this huge flower that gets through the ceiling.
 Lily Stargazer.
@@ -50,4 +41,13 @@ This little fellow right here might end just as big as its sister in a few years
 I just hope someone will take care of it. Living in the shadow of the great Stargazer can be tough.
 As a kid, I would come here to keep company to the smaller plants on the shelves so they feel just as loved and beautiful.
 Because to me, they are.
+===
+title: 0
+tags: 
+colorID: 0
+position: -257,28
+---
+<<pauseAll>>I don't know how to feel about returning here after all those years.
+So much have changed and yet so much remained the same.
+[[Start V2-2]]
 ===
