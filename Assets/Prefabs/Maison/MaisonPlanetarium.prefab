@@ -810,6 +810,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7000291715676338997, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: m_Name
+      value: NoDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185561455708933907, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185561455708933907, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714920443890120368, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714920443890120368, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: m_Name
+      value: HoDoor
+      objectReference: {fileID: 0}
     - target: {fileID: 6791494711747388414, guid: 01a58f3fe123e18449ce816a814c65d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -829,31 +854,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7000291715676338997, guid: 01a58f3fe123e18449ce816a814c65d5,
-        type: 3}
-      propertyPath: m_Name
-      value: NoDoor
-      objectReference: {fileID: 0}
-    - target: {fileID: 5714920443890120368, guid: 01a58f3fe123e18449ce816a814c65d5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5714920443890120368, guid: 01a58f3fe123e18449ce816a814c65d5,
-        type: 3}
-      propertyPath: m_Name
-      value: HoDoor
-      objectReference: {fileID: 0}
-    - target: {fileID: 8185561455708933907, guid: 01a58f3fe123e18449ce816a814c65d5,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8185561455708933907, guid: 01a58f3fe123e18449ce816a814c65d5,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391404887348938274, guid: 01a58f3fe123e18449ce816a814c65d5,
         type: 3}
@@ -895,6 +895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990917984421610152, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: colorToLock
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01a58f3fe123e18449ce816a814c65d5, type: 3}

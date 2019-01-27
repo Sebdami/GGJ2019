@@ -16370,20 +16370,9 @@ PrefabInstance:
       objectReference: {fileID: 376130842}
     - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
         type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
-        type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5442631433779190190, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 25cad5bbdeb6fcd4e89e5907c974759c,
-        type: 3}
     - target: {fileID: 5442631433943115448, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -16499,16 +16488,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 5442631433779190189, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5442631433779189840, guid: ac9029f7530271d4cb6bf1b9d9d229c8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9029f7530271d4cb6bf1b9d9d229c8, type: 3}
 --- !u!1001 &6054513951822340267

@@ -157,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3921774013606265372
 Transform:
   m_ObjectHideFlags: 0
@@ -334,7 +334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7789298984088732857
 RectTransform:
   m_ObjectHideFlags: 0
@@ -905,6 +905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990917984421610152, guid: 01a58f3fe123e18449ce816a814c65d5,
+        type: 3}
+      propertyPath: colorToLock
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01a58f3fe123e18449ce816a814c65d5, type: 3}
