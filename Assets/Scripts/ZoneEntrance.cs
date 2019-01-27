@@ -39,7 +39,7 @@ public class ZoneEntrance : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            signCanvas.SetActive(false);
+            signCanvas.GetComponent<AnimateOnEnable>().DisableGameObject();
             isPlayerInFront = false;
         }
     }
