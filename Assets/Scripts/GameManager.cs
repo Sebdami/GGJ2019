@@ -110,4 +110,10 @@ public class GameManager : MonoBehaviour
         MinigameWin();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
 }

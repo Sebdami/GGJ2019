@@ -548,7 +548,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "<b>Laila BOUCHARA</b>\nProgramming\r & Fx\n\n<b>Lola FAUVRE</b>\nStory\r
     & Game design\n\n<b>Andr\xE9a GIL LARANJO</b>\nConcept art\r, Environement 2D
@@ -1604,12 +1604,12 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "<b>El\xE9onore GILLES</b>\nEnvironement 2D art & narrative design\n\n<b>Sebastien
     Damiens</b>\nProgramming & Fx\n\n<b>CC Assets :</b>\nStarter Particle Pack by
     FullTiltBoogie\r\nDIY Music Box by Bolder Free Sounds\n\n<b>Special thanks to
-    :</b>\nSamuel For the music composition"
+    :</b>\nSamuel Bouvier (music composition)"
 --- !u!222 &1323984791
 CanvasRenderer:
   m_ObjectHideFlags: 0
