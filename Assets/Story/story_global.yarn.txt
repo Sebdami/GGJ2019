@@ -7,24 +7,6 @@ position: 321,30
 But when I looked up and saw Cepheus constellation, this shiny little house just reminded of how far I was from home.
 I raised my hand to reach it, hoping it would suddenly bring me back home, but grasped nothing but the wind.
 ===
-title: 0
-tags: 
-colorID: 0
-position: -232,0
----
-<<pauseAll>>I don't know how to feel about returning here after all those years.
-So much have changed and yet so much remained the same.
-[[Start V2-2]]
-===
-title: Start V2-2
-tags: 
-colorID: 0
-position: -232,255
----
-<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
-Things seem a bit out of time here. And it just feels...
-Safer.
-===
 title: 1
 tags: 
 colorID: 1
@@ -58,4 +40,22 @@ position: 818,36
 I feel like I'm becoming a child again when I hear it.
 I couldn’t count the number of times I asked to play it again and again until I fell asleep.
 Or the number of times Mum sang it to me when I was feeling blue as she knew it would warm my heart.
+===
+title: 0
+tags: 
+colorID: 0
+position: -202,27
+---
+<<pauseAll>>I don't know what to feel about returning here after all those years.
+So much have changed and yet so much remained the same.
+[[Start V2-2]]
+===
+title: Start V2-2
+tags: 
+colorID: 0
+position: -208,253
+---
+<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
+Things seem a bit out of time here.
+I find it surprisingly soothing.
 ===
