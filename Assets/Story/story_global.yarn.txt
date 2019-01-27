@@ -3,21 +3,32 @@ tags: Planetarium Memory Pause
 colorID: 0
 position: 321,30
 ---
-<<pauseAll>>The first time I went on a school trip during primary school, my parents told me there was no reason to be sad because despite the fact we were away from each other, we could still be looking at the same stars each night.
+<<pauseAll>>The first time I went on a school trip during primary school, my parents told me there was no reason to be sad.
+They looked me in the eyes and said that despite the fact we were away from each other, we could still be looking at the same stars each night.
 But when I looked up and saw Cepheus constellation, this shiny little house just reminded of how far I was from home.
 I raised my hand to reach it, hoping it would suddenly bring me back home, but grasped nothing but the wind.
+===
+title: 0
+tags: 
+colorID: 0
+position: -232,0
+---
+<<pauseAll>>I don't know what to feel about returning here after all those years.
+So much have changed and yet so much remained the same.
+Strangely enough, after what happened recently, this place was the only one I wanted to be.
+Things seem a bit out of time here.
+I find it surprisingly soothing.
 ===
 title: 1
 tags: 
 colorID: 1
 position: 69,31
 ---
-<<pauseAll>>The studio is just as I left it.
-I don’t even remember the reason why I torned up this picture.
-I can't manage to describe how I feel. This room has been my refugee for so long.
-Photography was a way for me to connect with people without getting too close. Keeping the camera between us.
-Here in the lab, I was able to fully express myself. I think I just love the process of giving birth to the shots I took. 
-I should get back to it.
+<<pauseAll>>The studio is just as I left it years ago.
+It is kind of odd to come back here, in this room that has been my refuge for so long.
+The first photos I developped were terrible when I think of it.
+We could barely see anything on it but, for some reasons, I quite liked them anyway.
+I should get back to photography.
 ===
 title: 3
 tags: 
@@ -28,7 +39,7 @@ position: 579,35
 Does she likes to contemplate Cepheus too? I like to think so.
 Still, I find it a bit sad that people usually don't pay much attention to any plants but the Stargazer.
 Grandma would mock me when I spent a lot of time talking to the small plants on the shelves, but the truth is I was concerned they felt left behind.
-I wanted to tell them I loved them equally. I still do.
+I wanted them to know they were all marvelous in their own way.
 After all, this little fellow right here might end just as big as its sister in a few years.
 ===
 title: 4
@@ -40,22 +51,14 @@ position: 818,36
 I feel like I'm becoming a child again when I hear it.
 I couldn’t count the number of times I asked to play it again and again until I fell asleep.
 Or the number of times Mum sang it to me when I was feeling blue as she knew it would warm my heart.
+I wonder if I could still play it on piano...
 ===
-title: 0
+title: 5
 tags: 
 colorID: 0
-position: -202,27
+position: 261,281
 ---
-<<pauseAll>>I don't know what to feel about returning here after all those years.
-So much have changed and yet so much remained the same.
-[[Start V2-2]]
-===
-title: Start V2-2
-tags: 
-colorID: 0
-position: -208,253
----
-<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
-Things seem a bit out of time here.
-I find it surprisingly soothing.
+After everything I've been through, here I am eventually.
+Where it all started.
+Home.
 ===
