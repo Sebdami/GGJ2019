@@ -25,20 +25,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public int UnlockedColors { get => unlockedColors; private set => unlockedColors = value; }
+    public int UnlockedColors { get => unlockedColors; set => unlockedColors = value; }
 
-    private void Awake()
+    public void Init()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else if(Instance != this)
         {
             Destroy(gameObject);
         }
+    }
 
+    private void Awake()
+    {
+        Init();
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
