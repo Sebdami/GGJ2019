@@ -12,7 +12,7 @@ public class Menu : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(1);
+        GameManager.Instance.LoadLevel("Main");
     }
 
     public void Credits()
