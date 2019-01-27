@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 23bd1f534ba735946bb7aaba4e1504bd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Beatrix Antiqua
+  fontNames:
+  - Beatrix Antiqua
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 18bc30e06dcb5194c9f0986b206fd8aa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
