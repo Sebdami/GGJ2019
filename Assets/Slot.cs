@@ -10,6 +10,7 @@ public class Slot : MonoBehaviour, IDropHandler
     public int id;
     public int width = 1;
     public int height = 1;
+    public ParticleSystem ParticulesPhoto;
     
     public GameObject item
     {
@@ -33,6 +34,7 @@ public class Slot : MonoBehaviour, IDropHandler
         if (!item && height == DragHandeler.itemBeingDragged.GetComponent<PicturePiece>().height && width == DragHandeler.itemBeingDragged.GetComponent<PicturePiece>().width)
         {
             DragHandeler.itemBeingDragged.transform.SetParent(transform);
+            ParticulesPhoto.Play();
         }
     }
 }
