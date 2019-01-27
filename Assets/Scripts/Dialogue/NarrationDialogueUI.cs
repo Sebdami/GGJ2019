@@ -124,7 +124,7 @@ namespace Yarn.Unity.Example {
                 continuePrompt.SetActive (true);
 
             // Wait for any user input
-            while (Input.GetMouseButtonDown(0) == false) {
+            while (Input.GetMouseButtonDown(0) == false || Input.GetButtonDown("Jump")) {
                 yield return null;
             }
 

@@ -10,5 +10,6 @@ public class EndTrigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider)
     {
         dialogue.StartDialogue("5");
+        gameObject.SetActive(false);
     }
 }
