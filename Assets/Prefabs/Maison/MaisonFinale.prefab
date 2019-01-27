@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e2b2ce49b0963448a5e3dbeba3b577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: End
+  sceneName: EndScene
   signCanvas: {fileID: 7627980891191798105}
   isPlayerInFront: 0
   UnlocksColor: 5

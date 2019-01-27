@@ -15,7 +15,7 @@ public class NoteObject : MonoBehaviour
             {
                 if(tag == "Win")
                 {
-                    GameManager.Instance.LoadLevel("Main");
+                    GameManager.Instance.MinigameWin();
                 }
                 gameObject.SetActive(false);
 
