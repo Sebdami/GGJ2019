@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< refs/remotes/origin/master
 guid: ed8712720082f104e94f565a8640ce50
+=======
+guid: 01aa558778b07e24f88915bec472b16d
+>>>>>>> Correction boutons E R T Y
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
