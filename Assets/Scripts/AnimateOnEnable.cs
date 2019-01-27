@@ -33,7 +33,8 @@ public class AnimateOnEnable : MonoBehaviour
 
     public void DisableGameObject()
     {
-        StartCoroutine(Disapear());
+        if(gameObject.activeSelf)
+            StartCoroutine(Disapear());
     }
 
     IEnumerator Disapear()
