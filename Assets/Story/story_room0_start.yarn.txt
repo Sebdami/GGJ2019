@@ -1,9 +1,9 @@
-title: Start
+title: Start V2
 tags: 
 colorID: 0
-position: -116,83
+position: -41,109
 ---
-I don't know how to feel about returning here after all those years.
+I don't know what to feel about returning here after all those years.
 So much have changed and yet so much remained the same.
 [[Start V2-2]]
 ===
@@ -13,6 +13,6 @@ colorID: 0
 position: 191,112
 ---
 Strangely enough, after what happened recently, this place was the only one I wanted to be.
-Things seem a bit out of time here. And it just feels...
-Safer.
+Things seem a bit out of time here.
+I find it surprisingly soothing.
 ===
