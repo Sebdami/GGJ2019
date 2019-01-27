@@ -1525,10 +1525,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<b>El\xE9onore GILLES</b>\nEnvironement 2D art & narrative design\n\n<b>Seb</b>\nProgramming
-    & Fx\n\n<b>CC Assets :</b>\nStarter Particle Pack by FullTiltBoogie\r\nDIY Music
-    Box by Bolder Free Sounds\n\n<b>Special thanks to :</b>\nSamuel For the music
-    composition"
+  m_Text: "<b>El\xE9onore GILLES</b>\nEnvironement 2D art & narrative design\n\n<b>Sebastien
+    Damiens</b>\nProgramming & Fx\n\n<b>CC Assets :</b>\nStarter Particle Pack by
+    FullTiltBoogie\r\nDIY Music Box by Bolder Free Sounds\n\n<b>Special thanks to
+    :</b>\nSamuel For the music composition"
 --- !u!222 &1323984791
 CanvasRenderer:
   m_ObjectHideFlags: 0
