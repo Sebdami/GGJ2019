@@ -1,25 +1,3 @@
-title: Start V2-2
-tags: 
-colorID: 0
-position: -250,320
----
-<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
-Things seem a bit out of time here. And it just feels...
-Safer.
-===
-title: 1
-tags: Photo Memory
-colorID: 1
-position: 54,28
----
-<<pauseAll>>The studio is just as I left it.
-It saddens me that I torned up this picture. That was quite childish of me.
-...
-I can't manage to describe how I feel. This room has been my refuge for so long.
-Photography was a way for me to connect with people without getting too close. Keeping the camera between us.
-I think I also liked to work alone and to be able to make my own choices.
-I should get back to it.
-===
 title: 2
 tags: Planetarium Memory Pause
 colorID: 0
@@ -29,25 +7,55 @@ position: 321,30
 But when I looked up and saw Cepheus constellation, this shiny little house just reminded of how far I was from home.
 I raised my hand to reach it, hoping it would suddenly bring me back home, but grasped nothing but the wind.
 ===
-title: 3
-tags: Garden Memory Pause
-colorID: 0
-position: 572,29
----
-<<pauseAll>>Now I remember the name of this huge flower that gets through the ceiling.
-Lily Stargazer.
-Does she likes to contemplate Cepheus too? I like to think so.
-This little fellow right here might end just as big as its sister in a few years.
-I just hope someone will take care of it. Living in the shadow of the great Stargazer can be tough.
-As a kid, I would come here to keep company to the smaller plants on the shelves so they feel just as loved and beautiful.
-Because to me, they are.
-===
 title: 0
 tags: 
 colorID: 0
-position: -257,28
+position: -232,0
 ---
 <<pauseAll>>I don't know how to feel about returning here after all those years.
 So much have changed and yet so much remained the same.
 [[Start V2-2]]
+===
+title: Start V2-2
+tags: 
+colorID: 0
+position: -232,255
+---
+<<pauseAll>>Strangely enough, after what happened recently, this place was the only one I wanted to be.
+Things seem a bit out of time here. And it just feels...
+Safer.
+===
+title: 1
+tags: 
+colorID: 1
+position: 69,31
+---
+<<pauseAll>>The studio is just as I left it.
+I don’t even remember the reason why I torned up this picture.
+I can't manage to describe how I feel. This room has been my refugee for so long.
+Photography was a way for me to connect with people without getting too close. Keeping the camera between us.
+Here in the lab, I was able to fully express myself. I think I just love the process of giving birth to the shots I took. 
+I should get back to it.
+===
+title: 3
+tags: 
+colorID: 0
+position: 579,35
+---
+<<pauseAll>>Now I remember the name of this huge flower that gets through the ceiling. Lily Stargazer.
+Does she likes to contemplate Cepheus too? I like to think so.
+Still, I find it a bit sad that people usually don't pay much attention to any plants but the Stargazer.
+Grandma would mock me when I spent a lot of time talking to the small plants on the shelves, but the truth is I was concerned they felt left behind.
+I wanted to tell them I loved them equally. I still do.
+After all, this little fellow right here might end just as big as its sister in a few years.
+===
+title: 4
+tags: 
+colorID: 0
+position: 818,36
+---
+<<pauseAll>>I almost forgot about this lullaby.
+I feel like I'm becoming a child again when I hear it.
+I couldn’t count the number of times I asked to play it again and again until I fell asleep.
+Or the number of times Mum sang it to me when I was feeling blue as she knew it would warm my heart.
 ===
