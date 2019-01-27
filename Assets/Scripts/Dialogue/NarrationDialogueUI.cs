@@ -91,7 +91,12 @@ namespace Yarn.Unity.Example {
 
         private void Start()
         {
-            GetComponent<DialogueRunner>().StartDialogue(GameManager.Instance.UnlockedColors.ToString());
+            StartDialogue(GameManager.Instance.UnlockedColors.ToString());
+        }
+
+        public void StartDialogue(string _dialogue)
+        {
+            GetComponent<DialogueRunner>().StartDialogue(_dialogue);
         }
 
         /// Show a line of dialogue, gradually

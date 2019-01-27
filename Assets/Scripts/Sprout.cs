@@ -30,9 +30,14 @@ public class Sprout : MonoBehaviour
         {
             isFound = true;
             Debug.Log("Sprout discovered");
-            winCountDown.gameObject.SetActive(true);
-            GameManager.Instance.WinInSeconds(3f);
+            GameManager.Instance.WinInSeconds(4f);
+            Invoke("StartFade", 1f);
         }
+    }
+
+    void StartFade()
+    {
+        GetComponent<FadeFlower>().Fade();
     }
 
 

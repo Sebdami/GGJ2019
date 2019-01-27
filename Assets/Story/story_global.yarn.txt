@@ -58,7 +58,7 @@ tags:
 colorID: 0
 position: 261,281
 ---
-After everything I've been through, here I am eventually.
+<<pauseAll>>After everything I've been through, here I am eventually.
 Where it all started.
 Home.
 ===
