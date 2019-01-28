@@ -9,9 +9,6 @@ public class DustCleaner : MonoBehaviour
     public float minAlphaToDestroy = 0.15f;
     public ParticleSystem dustParticles;
 
-
-    public float minDustToWin = 15f;
-
     bool isPlaying;
 
     private void Start()
@@ -39,19 +36,5 @@ public class DustCleaner : MonoBehaviour
         }
         else if (dustParticles.isPlaying)
             dustParticles.Stop();
-
-        if (transform.childCount <= minDustToWin)
-        {
-            foreach (Transform t in transform)
-                Destroy(t.gameObject);
-            isPlaying = false;
-            StartCoroutine(Win());
-        }
-
-        IEnumerator Win()
-        {
-            yield return new WaitForSeconds(2f);
-            GameManager.Instance.LoadLevel("Main");
-        }
     }
 }
